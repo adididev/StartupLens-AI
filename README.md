@@ -24,7 +24,7 @@ An end-to-end AI system that uses Retrieval-Augmented Generation (RAG), web scra
 ## Project Structure
 
 ```
-marketmind/
+StartupLens-AI/
 ├── app.py                  # Streamlit UI & orchestration
 ├── ml/
 │   └── model.py            # Scoring engine (normalize, monetization, viability)

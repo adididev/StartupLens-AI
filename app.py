@@ -35,8 +35,8 @@ def get_label_color(score):
 
 # Page Config
 st.set_page_config(
-    page_title="MarketMind AI",
-    page_icon="🧠",
+    page_title="StartupLens AI",
+    page_icon="🔍",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -94,7 +94,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="header-title">MarketMind AI<br><span style="font-size: 1.5rem; font-weight: 400; color: #aaa;-webkit-text-fill-color: #aaa;">Startup Intelligence Engine</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="header-title">StartupLens AI<br><span style="font-size: 1.5rem; font-weight: 400; color: #aaa;-webkit-text-fill-color: #aaa;">Startup Intelligence Engine</span></div>', unsafe_allow_html=True)
 
 # User Input — pressing Enter triggers the form automatically
 with st.form("analysis_form"):
@@ -175,7 +175,7 @@ if submitted and query.strip():
 
         # --- DEBUG LOGGING VIA PRINT ---
         print("\n" + "=" * 50)
-        print("🚀 MARKETMIND AI DEBUG LOGS")
+        print("🚀 STARTUPLENS AI DEBUG LOGS")
         print("=" * 50)
         print(f"Total documents fetched: {len(raw_docs)}")
         print(f"Total chunks created: {num_chunks}")
