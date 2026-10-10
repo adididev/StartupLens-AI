@@ -1,0 +1,10 @@
+[theme]
+# The custom CSS in app.py (dark cards, dark background) is designed for dark mode.
+base = "dark"
+primaryColor = "#4ECDC4"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
