@@ -103,7 +103,7 @@ with st.form("analysis_form"):
         placeholder="e.g., AI-powered personal tutor for organic chemistry",
         key="idea_input",
     )
-    submitted = st.form_submit_button("Analyze Idea", use_container_width=True, type="primary")
+    submitted = st.form_submit_button("Analyze Idea", width="stretch", type="primary")
 
 if submitted and not query.strip():
     st.warning("Please enter a startup idea first!")
