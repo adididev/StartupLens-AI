@@ -17,8 +17,8 @@ def generate_response(query: str, context: str) -> str:
     Calls the Groq chat completions API to generate a response.
     """
     api_key = _get_secret("GROQ_API_KEY")
-    model = _get_secret("GROQ_MODEL", "llama-3.3-70b-versatile")
-    fallback_model = _get_secret("GROQ_FALLBACK_MODEL", "llama-3.1-8b-instant")
+    model = _get_secret("GROQ_MODEL", "openai/gpt-oss-120b")
+    fallback_model = _get_secret("GROQ_FALLBACK_MODEL", "openai/gpt-oss-20b")
     url = "https://api.groq.com/openai/v1/chat/completions"
 
     if not api_key:
@@ -112,5 +112,5 @@ def generate_response(query: str, context: str) -> str:
     return (
         "Groq API is currently rate-limited (HTTP 429) or unavailable. "
         "Please wait a minute and retry. You can also set a lighter model via "
-        "GROQ_MODEL (for example, llama-3.1-8b-instant) to reduce rate-limit pressure."
+        "GROQ_MODEL (for example, openai/gpt-oss-20b) to reduce rate-limit pressure."
     )

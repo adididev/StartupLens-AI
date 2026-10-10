@@ -7,7 +7,7 @@ An end-to-end AI system that uses Retrieval-Augmented Generation (RAG), web scra
 - **Web Data Pipeline** – Scrapes DuckDuckGo and Wikipedia for real-time market context
 - **RAG Engine** – FAISS vector search + sentence-transformers embeddings for semantic retrieval
 - **Smart Scoring** – Min-max normalized metrics for demand, competition, growth, monetization & viability
-- **LLM Analysis** – Groq-powered (LLaMA 3.3 70B) structured market insights
+- **LLM Analysis** – Groq-powered (GPT-OSS 120B) structured market insights
 - **Beautiful UI** – Premium dark-themed Streamlit dashboard with animated metric cards
 
 ## Tech Stack
@@ -17,7 +17,7 @@ An end-to-end AI system that uses Retrieval-Augmented Generation (RAG), web scra
 | Frontend | Streamlit |
 | Embeddings | sentence-transformers (all-MiniLM-L6-v2) |
 | Vector DB | FAISS |
-| LLM | Groq API (LLaMA 3.3 70B) |
+| LLM | Groq API (GPT-OSS 120B) |
 | Scraping | BeautifulSoup4 + Requests |
 | ML Scoring | Custom heuristic engine |
 
