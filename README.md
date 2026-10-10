@@ -1,5 +1,9 @@
 # StartupLens AI – Startup Intelligence Engine
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://startuplens-ai-abbcztmhrgmchsayvcwbci.streamlit.app/)
+
+**Live app:** https://startuplens-ai-abbcztmhrgmchsayvcwbci.streamlit.app/
+
 An end-to-end AI system that uses Retrieval-Augmented Generation (RAG), web scraping, FAISS vector database, open-source embeddings, Groq-hosted LLM inference, and an intelligent scoring engine to analyze startup ideas.
 
 ## Features
