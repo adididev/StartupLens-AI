@@ -254,7 +254,8 @@ if submitted and query.strip():
     st.divider()
 
     # ── LLM Response ──────────────────────────────────────────────
-    st.markdown(llm_response)
+    # Escape "$" so dollar amounts aren't rendered as LaTeX math.
+    st.markdown(llm_response.replace("$", "\\$"))
 
     st.divider()
 
